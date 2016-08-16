@@ -1,0 +1,14 @@
+---
+cog_bundle_version: 3
+
+name: my_bundle
+version: 2.2.2
+docker:
+  image: ktheory/cog-poc
+  tag: latest
+commands:
+  step1:
+    executable: /step1.rb
+    documentation: "it tells you 3 jsons"
+    rules:
+    - "allow"
