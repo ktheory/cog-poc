@@ -10,7 +10,7 @@
 require 'json'
 
 if ENV['COG_ARGC'] != "3"
-  puts "Must pass 3 args"
+  $stderr.puts "Must pass 3 args"
   exit 1
 end
 
